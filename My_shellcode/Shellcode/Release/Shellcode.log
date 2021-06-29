@@ -1,0 +1,28 @@
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  main.c
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(21,35): warning C4229: anachronism used: modifiers on data are ignored
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(22,31): warning C4229: anachronism used: modifiers on data are ignored
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(17,1): warning C4047: 'initializing': 'HMODULE (__stdcall *)(LPCSTR)' differs in levels of indirection from 'int'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(18,1): warning C4047: 'initializing': 'FARPROC (__stdcall *)(HMODULE,LPCSTR)' differs in levels of indirection from 'int'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(21,1): warning C4047: 'initializing': 'void *(__stdcall *)(size_t)' differs in levels of indirection from 'int'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(22,1): warning C4047: 'initializing': 'void (__stdcall *)(void *)' differs in levels of indirection from 'int'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(29,1): warning C4113: 'FARPROC' differs in parameter lists from 'void (__stdcall *)(UINT)'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(32,1): warning C4113: 'FARPROC' differs in parameter lists from 'HANDLE (__stdcall *)(LPCSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(32,1): warning C4047: 'initializing': 'HANDLE (__stdcall *)(LPCSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)' differs in levels of indirection from 'FARPROC'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(40,1): warning C4113: 'FARPROC' differs in parameter lists from 'BOOL (__stdcall *)(HANDLE,LPCVOID,DWORD,LPDWORD,LPOVERLAPPED)'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(47,1): warning C4113: 'FARPROC' differs in parameter lists from 'HMODULE (__stdcall *)(LPCSTR)'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(47,1): warning C4047: 'initializing': 'HMODULE (__stdcall *)(LPCSTR)' differs in levels of indirection from 'FARPROC'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(71,1): warning C4113: 'FARPROC' differs in parameter lists from 'int (__stdcall *)(WORD,LPWSADATA)'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(77,1): warning C4113: 'FARPROC' differs in parameter lists from 'ULONG (__stdcall *)(PMIB_TCPTABLE,PULONG,BOOL)'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(83,1): warning C4113: 'FARPROC' differs in parameter lists from 'char *(__stdcall *)(in_addr)'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(83,1): warning C4047: 'initializing': 'char *(__stdcall *)(in_addr)' differs in levels of indirection from 'FARPROC'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(89,1): warning C4113: 'FARPROC' differs in parameter lists from 'int (__stdcall *)(int,int,int)'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(170,30): warning C4018: '<': signed/unsigned mismatch
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(193,5): warning C4007: 'main': must be '__cdecl'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Shellcode\main.c(195,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating code
+  1 of 10 functions (10.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Shellcode.vcxproj -> C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\My_shellcode\Release\Shellcode.exe

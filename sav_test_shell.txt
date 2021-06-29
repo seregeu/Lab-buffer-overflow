@@ -1,0 +1,61 @@
+#define CRT_SECURE_NO_WARNINGS
+#include <winsock.h>
+#pragma comment(lib, "ws2_32.lib")
+#include<stdio.h>
+
+int main()
+{
+    SOCKET sock;
+    int error;
+    char ws[1024];
+    char buff[32];
+    int MinPort;
+    int MaxPort;
+    int port;
+
+
+    if (FAILED(WSAStartup(0x202, (WSADATA*)&ws[0])))
+    {
+        error = WSAGetLastError();
+        printf("WSAStartup error");
+        return -1;
+    }
+    //устанавливаем socket
+
+    if (INVALID_SOCKET == (sock = socket(AF_INET, SOCK_STREAM, 0)))
+    {
+        error = WSAGetLastError();
+        printf("Socket error");
+        return -1;
+    }
+    SOCKADDR_IN sock_addr;
+    ZeroMemory(&sock_addr, sizeof(sock_addr));
+    sock_addr.sin_family = AF_INET;
+    sock_addr.sin_addr.S_un.S_addr = inet_addr("127.0.0.1");
+
+
+    // Вводим Port
+
+    printf("Enter the MinPort :");
+    scanf_s("%d",&MinPort);
+    printf("Enter the MaxPort :");
+    scanf_s("%d",&MaxPort);
+
+    for (MinPort; MinPort <= MaxPort; MinPort++)
+    {
+        port = MinPort;
+        sock_addr.sin_port = htons(port);
+        if (SOCKET_ERROR == (connect(sock, (SOCKADDR_IN*)&sock_addr, sizeof(sock_addr))))
+        {
+            printf("\nPort %d closed", port);
+          //  printf("Port " << port << " closed");
+        }
+        else
+        {
+            printf("\nPort %d Open", port);
+           // printf("Port " << port << "Open");
+        }
+    }
+
+    system("PAUSE");
+}

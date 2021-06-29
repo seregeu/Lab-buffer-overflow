@@ -1,0 +1,30 @@
+﻿cl : command line warning D9025: overriding '/sdl' with '/GS-'
+  main.c
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(21,37): warning C4229: anachronism used: modifiers on data are ignored
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(22,33): warning C4229: anachronism used: modifiers on data are ignored
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(118,76): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(19,1): warning C4047: 'initializing': 'HMODULE (__cdecl *)(LPCSTR)' differs in levels of indirection from 'int'
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(20,1): warning C4047: 'initializing': 'FARPROC (__cdecl *)(HMODULE,LPCSTR)' differs in levels of indirection from 'int'
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(21,1): warning C4047: 'initializing': 'void *(__cdecl *)(size_t)' differs in levels of indirection from 'int'
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(22,1): warning C4047: 'initializing': 'void (__cdecl *)(void *)' differs in levels of indirection from 'int'
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(38,1): warning C4113: 'FARPROC' differs in parameter lists from 'void (__cdecl *)(UINT)'
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(41,1): warning C4113: 'FARPROC' differs in parameter lists from 'HANDLE (__cdecl *)(LPCSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)'
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(41,1): warning C4047: 'initializing': 'HANDLE (__cdecl *)(LPCSTR,DWORD,DWORD,LPSECURITY_ATTRIBUTES,DWORD,DWORD,HANDLE)' differs in levels of indirection from 'FARPROC'
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(49,1): warning C4113: 'FARPROC' differs in parameter lists from 'BOOL (__cdecl *)(HANDLE,LPCVOID,DWORD,LPDWORD,LPOVERLAPPED)'
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(49,1): warning C4133: 'initializing': incompatible types - from 'FARPROC' to 'BOOL (__cdecl *)(HANDLE,LPCVOID,DWORD,LPDWORD,LPOVERLAPPED)'
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(56,1): warning C4113: 'FARPROC' differs in parameter lists from 'HMODULE (__cdecl *)(LPCSTR)'
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(56,1): warning C4047: 'initializing': 'HMODULE (__cdecl *)(LPCSTR)' differs in levels of indirection from 'FARPROC'
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(70,1): warning C4113: 'FARPROC' differs in parameter lists from 'ULONG (__cdecl *)(PIP_ADAPTER_INFO,PULONG)'
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(70,1): warning C4133: 'initializing': incompatible types - from 'FARPROC' to 'ULONG (__cdecl *)(PIP_ADAPTER_INFO,PULONG)'
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(91,7): warning C4101: 'i': unreferenced local variable
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(160,9): warning C4477: 'printf' : format string '%u' requires an argument of type 'unsigned int', but variadic argument 1 has type '__int64'
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(160,9): message : consider using '%llu' in the format string
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(160,9): message : consider using '%Iu' in the format string
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(160,9): message : consider using '%I64u' in the format string
+D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\Shellcode\main.c(150,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : see declaration of 'fopen'
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Shellcode.vcxproj -> D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\x64\Release\Shellcode.exe

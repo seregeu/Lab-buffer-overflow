@@ -1,0 +1,8 @@
+﻿  test_shell.c
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\prog\test_shell\test_shell.c(30,30): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  1 of 6 functions (16.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  test_shell.vcxproj -> C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\prog\test_shell\Release\test_shell.exe

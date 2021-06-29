@@ -1,0 +1,2 @@
+﻿  test_shell.c
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\prog\test_shell\test_shell.c(1,10): fatal error C1083: Cannot open include file: 'StdAfx.h': No such file or directory

@@ -1,0 +1,8 @@
+﻿  test_shell.c
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\prog\test_shell\test_shell.c(54,68): warning C4133: 'function': incompatible types - from 'SOCKADDR_IN *' to 'const sockaddr *'
+C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\prog\test_shell\test_shell.c(11,10): warning C4101: 'buff': unreferenced local variable
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  test_shell.vcxproj -> C:\Users\User\Desktop\Лабы 6 сем\МБКС\2\prog\test_shell\x64\Release\test_shell.exe

@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v142:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0
+Release|x64|D:\Activities\University\6 semester\MSCS\Labs\Lab_2_-_Buffer_overflow_exploitation\Shellcode\|
